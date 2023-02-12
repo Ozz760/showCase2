@@ -42,6 +42,7 @@ const NavBar = () => {
         ))}
       </ul>
 
+      {/* When there is a medium screen size the nav bar is replaced with the FaBars icon. */}
       <div
         onClick={() => setNav(!nav)}
         className="cursor-pointer pr-4 z-10 text-gray-500 md:hidden"
