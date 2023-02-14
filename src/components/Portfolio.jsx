@@ -9,7 +9,7 @@ import reactWeather from "../assets/portfolio/reactWeather.jpg";
 
 const Portfolio = () => {
   // Add links to your project using the index of the array for when the user click on one of the project it takes them to the link with an onClick() event.
-  const portfoios = [
+  const portfolio = [
     {
       id: 1,
       src: arrayDestruct,
@@ -48,7 +48,7 @@ const Portfolio = () => {
           <p className="py-6">Check out some of my work</p>
         </div>
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfoios.map(({ id, src }) => (
+          {portfolio.map(({ id, src }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={src}

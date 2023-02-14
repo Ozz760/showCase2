@@ -9,6 +9,7 @@ import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
 
 const Experience = () => {
+  // TODO: Add python and Java
   const exp = [
     {
       id: 1,
