@@ -7,6 +7,7 @@ import nextjs from "../assets/nextjs.png";
 import graphql from "../assets/graphql.png";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
+import node from "../assets/node.png";
 
 const Experience = () => {
   // TODO: Add python and Java
@@ -58,6 +59,12 @@ const Experience = () => {
       src: tailwind,
       title: "TailWind",
       style: "shadow-sky-400",
+    },
+    {
+      id: 9,
+      src: node,
+      title: "Node JS",
+      style: "shadow-green-500",
     },
   ];
   return (
