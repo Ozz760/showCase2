@@ -8,6 +8,9 @@ import graphql from "../assets/graphql.png";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
 import node from "../assets/node.png";
+import python from "../assets/python.png";
+import java from "../assets/java.png";
+import typescript from "../assets/typescript.png";
 
 const Experience = () => {
   // TODO: Add python and Java
@@ -65,6 +68,24 @@ const Experience = () => {
       src: node,
       title: "Node JS",
       style: "shadow-green-500",
+    },
+    {
+      id: 10,
+      src: python,
+      title: "Python",
+      style: "shadow-yellow-500",
+    },
+    {
+      id: 11,
+      src: java,
+      title: "Java",
+      style: "shadow-red-500",
+    },
+    {
+      id: 12,
+      src: typescript,
+      title: "TypeScript",
+      style: "shadow-blue-700",
     },
   ];
   return (
