@@ -13,7 +13,6 @@ import java from "../assets/java.png";
 import typescript from "../assets/typescript.png";
 
 const Experience = () => {
-  // TODO: Add python and Java
   const exp = [
     {
       id: 1,

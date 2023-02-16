@@ -1,38 +1,27 @@
 import React from "react";
-// Make sure to import all of your own projects.
-import arrayDestruct from "../assets/portfolio/arrayDestruct.jpg";
-import installNode from "../assets/portfolio/installNode.jpg";
-import navbar from "../assets/portfolio/navbar.jpg";
-import reactParallax from "../assets/portfolio/reactParallax.jpg";
-import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
-import reactWeather from "../assets/portfolio/reactWeather.jpg";
+import NT from "../assets/portfolio/NT-2022.png";
+import RR from "../assets/portfolio/RR-2022.png";
+import TE from "../assets/portfolio/TE-2022.png";
 
 const Portfolio = () => {
-  // Add links to your project using the index of the array for when the user click on one of the project it takes them to the link with an onClick() event.
   const portfolio = [
     {
       id: 1,
-      src: arrayDestruct,
+      src: NT,
+      github: "https://github.com/Ozz760/Note-Taker-Express.js",
+      link: "https://lit-cliffs-22896.herokuapp.com/",
     },
     {
       id: 2,
-      src: installNode,
+      src: RR,
+      github: "https://github.com/Ozz760/Recipe-Roulette",
+      link: "https://kreativekntrl.github.io/project-01/",
     },
     {
       id: 3,
-      src: navbar,
-    },
-    {
-      id: 4,
-      src: reactParallax,
-    },
-    {
-      id: 5,
-      src: reactSmooth,
-    },
-    {
-      id: 6,
-      src: reactWeather,
+      src: TE,
+      github: "https://github.com/Ozz760/Text-Editor-io",
+      link: "https://murmuring-depths-08823.herokuapp.com/",
     },
   ];
   return (
@@ -48,7 +37,7 @@ const Portfolio = () => {
           <p className="py-6">Check out some of my work</p>
         </div>
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolio.map(({ id, src }) => (
+          {portfolio.map(({ id, src, github, link }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={src}
@@ -57,10 +46,14 @@ const Portfolio = () => {
               />
               <div className="flex items-center justify-center">
                 <button className="w-1/2 px-6 py-3 duration-200 hover:scale-105">
-                  Demo
+                  <a href={link} target="_blank" rel="noreferrer">
+                    Demo
+                  </a>
                 </button>
                 <button className="w-1/2 px-6 py-3 duration-200 hover:scale-105">
-                  Code
+                  <a href={github} target="_blank" rel="noreferrer">
+                    Code
+                  </a>
                 </button>
               </div>
             </div>
