@@ -17,7 +17,7 @@ const Home = () => {
           <p className="text-gray-500 py-4 max-w-md">
             Software Engineer with 1 year of experience building and designing
             software and web pages. Currently, I love to work on web application
-            using technologies like React, Tailwind, Next.Js and GraphQL{" "}
+            using technologies like React, Tailwind, Next JS and GraphQL{" "}
           </p>
           <div>
             <Link
