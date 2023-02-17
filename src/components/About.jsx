@@ -7,28 +7,30 @@ const About = () => {
       className="w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
-        <div className="pb-8">
+        <div className="pb-4">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
             About
           </p>
         </div>
         <p className="text-xl mt-20">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error quae
-          excepturi accusamus praesentium, maiores fugiat. Minima, similique
-          fugit? Dicta quisquam quibusdam eos inventore impedit aliquam optio
-          aperiam maiores iusto obcaecati? Asperiores aliquam voluptatem eveniet
-          nisi dolores saepe magni quaerat quod nihil quisquam! Consequuntur,
-          odit nesciunt. Amet harum alias earum doloremque.
+          Hello! My name is Oscar and I enjoy creating and discovering new ways
+          to make exciting full stack applications. My interest in full stack
+          development and software engineering started back in 2022 when I
+          wanted to make a page where I can showcase my work in business
+          administration and display the business ideas that I had while
+          attending MiraCosta College. Soon I was hooked on web development and
+          I enrolled in a Full Stack Web Development BootCamp at UCSD.
         </p>
         <br />
 
         <p className="text-xl">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, est
-          quos expedita minus sapiente rerum voluptatum quasi? Ea nisi eos ex
-          repudiandae quasi culpa porro voluptate beatae atque nemo et ducimus
-          aut iste, ipsam, possimus perferendis vel! Iure voluptatem soluta
-          quisquam minima deserunt officia incidunt blanditiis quia, nihil
-          laborum! Itaque.
+          Today I work everyday to harness and improve my web development skills
+          learning new technologies like Java, Python, and TypeScript to expand
+          my knowledge and further enhance my skills. I've had exciting
+          opportunities where I worked on a mobile application using React
+          Native and Firebase for a start-up called Packed ( then DormIt ) where
+          their goal was to provide college students with affordable
+          conveniences like food deliveries.
         </p>
       </div>
     </div>
