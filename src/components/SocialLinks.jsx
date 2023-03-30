@@ -42,7 +42,6 @@ const SocialLinks = () => {
       ),
       href: "/OscarSilvaSEResume!.pdf",
       styles: "rounded-br-md",
-      download: true,
     },
   ];
   return (
@@ -60,7 +59,6 @@ const SocialLinks = () => {
             <a
               href={href}
               className="flex justify-between items-center w-full text-white"
-              download={download}
               target="_blank"
               rel="noreferrer"
             >
