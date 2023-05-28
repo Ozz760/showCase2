@@ -1,6 +1,6 @@
 import React from "react";
 import NT from "../assets/portfolio/NT-2022.png";
-import RR from "../assets/portfolio/RR-2022.png";
+import ML from "../assets/portfolio/MadLibTs.png";
 import TE from "../assets/portfolio/TE-2022.png";
 
 const Portfolio = () => {
@@ -13,9 +13,9 @@ const Portfolio = () => {
     },
     {
       id: 2,
-      src: RR,
-      github: "https://github.com/Ozz760/Recipe-Roulette",
-      link: "https://kreativekntrl.github.io/project-01/",
+      src: ML,
+      github: "https://github.com/Ozz760/MadLibTs",
+      link: "https://jovial-gumdrop-713a07.netlify.app/",
     },
     {
       id: 3,
