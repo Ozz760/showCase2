@@ -12,12 +12,14 @@ const Home = () => {
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full">
           <h2 className="text-4xl sm:text-7xl font-bold text-white">
-            Full Stack Developer
+            Full Stack Engineer
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-            Software Engineer with 1 year of experience building and designing
-            software and web pages. Currently, I love to work on web application
-            using technologies like React, Tailwind, Next JS and GraphQL{" "}
+            Full Stack Engineer with experience building and designing software
+            and web pages. Currently, I love to work on web application using
+            technologies like JavaScript, TypeScript, React, and Node.JS. As
+            well as using tools like PostgreSQL, Express, and GraphQL for server
+            side applications.{" "}
           </p>
           <div>
             <Link
